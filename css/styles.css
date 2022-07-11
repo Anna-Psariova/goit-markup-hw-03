@@ -1,0 +1,213 @@
+:root{
+  /* fonts */
+    --main-font--:'Roboto',sans-serif;
+    --secondary-font--:'Raleway',sans-serif;
+    /* color */
+    --main-color--:#212121;
+    --secondary-color--: #757575;
+    --accent-color--:#2196F3;
+    --white-color--:#FFFFFF;
+    /* background color */
+    --main-bcg-color--: #FFFFFF;
+    --lightgrey-bcg-color--:#F5F4FA;
+    --darkgrey-bcg-color--: #2F303A;
+}
+body{
+    font-family: var(--main-font--);
+    color:var(--main-color--) ;
+    background-color:var(--main-bcg-color--);
+}
+.logo{
+    font-family:var(--secondary-font--);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+
+}
+.web{
+    color: var(--accent-color--);
+}
+.nav-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+list-style: none;
+text-decoration: none;
+}
+.current{
+    color: var(--accent-color--);
+}
+.nav-link{
+    color: var(--main-color--);
+}
+.link:hover,
+.link:focus{
+    color:var(--accent-color--) ;
+}
+.link{
+    text-decoration:none ;
+}
+.contacts a{
+font-weight: 500;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color--);
+text-decoration: none;
+}
+.contacts{
+    list-style:none;}
+.contacts:hover,
+.contacts:focus{
+    color:var(--accent-color--);
+}
+.hero{
+    background-color:var(--darkgrey-bcg-color--);
+    color: var(--white-color--);
+}
+.title{
+font-weight: 900;
+font-size: 44px;
+line-height:1.36;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+}
+.btn{
+background:var(--accent-color--);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+color: var(--white-color--);
+cursor: pointer;
+font-family: inherit;
+}
+.btn:hover,
+.btn:focus{
+background:#188CE8;
+}
+.text-list{
+    list-style:none ;
+}
+.list-item-title{
+font-weight: 700;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.list-item{
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-color--);
+}
+.box-title{
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.images-list{
+list-style: none;
+}
+.team-section{
+    background-color:var(--lightgrey-bcg-color--);
+}
+.title-team-section{
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-list{
+    list-style:none ;
+}
+.team-title-item{
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.tagline{
+font-size: 16px;
+line-height:1.19;
+text-align: center;
+letter-spacing:0.03em;
+color:var(--secondary-color--);
+}
+.footer{
+background-color:var(--darkgrey-bcg-color--);
+}
+.logo-footer{
+    font-family:var(--secondary-font--);
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+    color: var(--white-color--);
+    text-decoration: none;
+}
+.web-footer{
+    color: var(--accent-color--);
+}
+.address{
+    list-style:none ;
+}
+.address-link.footer-address{
+color: var(--white-color--);
+}
+.address-link{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+font-style: normal;
+}
+.address-link:hover,
+.address-link:focus{
+    color:var(--white-color--);
+}
+.btn-list{
+list-style: none;
+}
+.btn-item{
+ background: #F5F4FA;
+ cursor: pointer; 
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.62;
+ letter-spacing: 0.03em;
+ font-family: inherit;
+}
+.btn-current{
+color:var(--white-color--);
+background-color:var(--accent-color--);
+}
+.btn-item:hover,
+.btn-item:focus{
+background: var(--accent-color--);
+color: var(--white-color--);
+}
+.portfolio-list-item{
+font-weight: 700;
+font-size: 18px;
+line-height:2;
+letter-spacing: 0.06em;
+color:var(--main-color--);
+}
+.desc{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondary-color--);
+}
