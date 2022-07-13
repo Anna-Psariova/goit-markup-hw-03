@@ -30,7 +30,7 @@ ul{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.team-section{
+.images-box{
     padding-top: 0;
 }
 img{
@@ -44,13 +44,16 @@ img{
     margin-right: auto;
     align-items: center;
 }
+header{
+    border-bottom: 1px solid #ECECEC;
+}
 .header{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 .header-nav{
     display: flex;
+    margin-right: auto;
 }
 .logo{
     width:145px;
@@ -71,7 +74,6 @@ img{
 }
 .nav-list{
 display: flex;
-margin-right: 331px;
 gap: 50px;
 font-weight: 500;
 font-size: 14px;
@@ -152,11 +154,14 @@ background:#188CE8;
 .text-list{
 display:flex;
 flex-wrap: wrap;
-padding-top: 94px;
 gap: 30px;
 list-style:none ; 
 }
+.text-list-item{
+    width: 270px;
+}
 .list-item-title{
+margin-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
 line-height:1.14;
@@ -164,7 +169,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .list-item{
-width: 270px;
 font-size: 14px;
 line-height:1.71;
 letter-spacing: 0.03em;
@@ -184,10 +188,12 @@ text-align: center;
 }
 .images-list{
 display: flex;
-max-width: 370px;
 gap: 30px;
 margin-top: 50px;
 list-style: none;
+}
+.images-box-item{
+    max-width: 370px;
 }
 .team-section{
     display: flex;
@@ -195,7 +201,6 @@ list-style: none;
     background-color:var(--lightgrey-bcg-color--);
    }
 .title-team-section{
-    padding-top:94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -209,9 +214,10 @@ list-style: none;
     list-style:none ;
 
 }
-.visit-card{
-    margin-top: 30px;
-    padding: 10px;
+.visit-card{padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
 }
 .team-title-item{
  font-weight: 500;
@@ -221,7 +227,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .tagline{
-padding-top:10px;
+margin-top:10px;
 font-size: 16px;
 line-height:1.19;
 text-align: center;
@@ -234,8 +240,7 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 .logo-footer{
-    width: 145px;
-    display: block;
+    display:inline-block;
     margin-bottom: 20px;
     font-family:var(--secondary-font--);
     font-weight: 700;
@@ -285,6 +290,10 @@ margin-right: 8px;
     margin-right: 0;
 }
 .btn-item{
+padding-top:6px;
+padding-right:22px ;
+padding-bottom:6px ;
+padding-left: 22px;
 border-radius: 4px;   
  background: #F5F4FA;
  cursor: pointer; 
@@ -311,7 +320,11 @@ color: var(--white-color--);
     gap:30px;
     flex-basis: calc((100% - 30px* 2 / 3));
 }
+.link-portfolio{
+text-decoration: none;
+}
 .portfolio-list-item{
+margin-bottom: 4px;
 font-weight: 700;
 font-size: 18px;
 line-height:2;
